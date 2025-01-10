@@ -1,0 +1,1 @@
+Esse repositório será utilizado para realizar os exercicios do Desafio Tecnico da IN-Junior
