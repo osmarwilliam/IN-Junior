@@ -102,3 +102,67 @@ else {
 // Operador ternário (condição ? valor1 : valor2)
 
 let podeBeber = idade >= 18 ? true : false;
+
+// Estrutura Switch case
+
+let variavel; 
+
+switch (variavel) {
+    case 4:
+        // codigo
+        break;
+    case "Banana":
+        //
+        break; 
+}
+
+n1 = parseInt(prompt("Digite um valor: "))
+n2 = parseInt(prompt("Digite um valor: "))
+let operacao = prompt("Digita operação: ")
+
+switch (operacao) {
+    case '+':
+        console.log(n1 + n2)
+        break;
+    case '-':
+        console.log(n1 - n2)
+        break;
+    case '*':
+        console.log(n1 * n2)
+        break;
+    case '/':
+        console.log(n1 % n2)
+        break;  
+}
+
+// Estrutura de repetição while e do while
+
+let cont = 0;
+
+while (cont < 10) {
+    if (cont == 5) {
+        cont++;
+        continue
+    }
+    console.log(cont);
+    cont++;
+    if (cont == 8) break;
+}
+
+do {
+    console.log(cont);
+    cont--;
+} while (cont > 0)
+
+// Diferenças de utilização entre while e do while
+
+for(let i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+// Escopo em while (variáveis declaradas dentro do loop não são acessíveis fora)
+
+// Comandos break e continue
+
+// Estrutura for
+
